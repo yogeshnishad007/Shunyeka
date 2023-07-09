@@ -19,3 +19,108 @@
        padding: 15px 10px 10px 15px;
 
 } 
+
+
+
+/* ----------------------- Form ---------------*/
+
+.container{
+    
+    margin: auto;
+    width: 60%;
+    margin-top: 50px;
+    
+}
+.input-box>p{
+     font-size: 20px;
+     display: flex;
+     flex-direction:row;
+     font-family: 'segoe ui';
+    
+}
+
+
+.input-box>input{
+
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.btn-container{
+
+       margin-top: 20px;
+}
+
+.submit-btn{
+
+      background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+      border-radius: .5rem;
+      box-sizing: border-box;
+      color: #FFFFFF;
+      display: flex;
+      font-size: 16px;
+      justify-content: center;
+      padding: 1rem 1.75rem;
+      text-decoration: none;
+      width: 20%;
+      border: 0;
+      cursor: pointer;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+}
+    
+.submit-btn:hover {
+      background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
+    }
+    
+    @media (min-width: 768px) {
+        .submit-btn {
+        padding: 1rem 2rem;
+      }
+    }
+
+
+
+    .add-btn{
+
+          background-color: #13aa52;
+          border: 1px solid #13aa52;
+          border-radius: 4px;
+          box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+          box-sizing: border-box;
+          color: #fff;
+          cursor: pointer;
+          font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          outline: none;
+          outline: 0;
+          /* padding: 10px 25px; */
+          margin-top: 20px;
+          text-align: center;
+          transform: translateY(0);
+          transition: transform 150ms, box-shadow 150ms;
+          user-select: none;
+          -webkit-user-select: none;
+          touch-action: manipulation;
+        }
+        
+        .add-btn:hover {
+          box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+          transform: translateY(-2px);
+        }
+        
+        @media (min-width: 768px) {
+            .add-btn {
+            padding: 10px 30px;
+          }
+        }
+    
